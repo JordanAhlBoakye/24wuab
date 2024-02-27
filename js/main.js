@@ -1,0 +1,1 @@
+document.querySelector(".fadelayer").addEventListener("click",showMenu);
