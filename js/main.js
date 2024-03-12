@@ -1,10 +1,13 @@
-document.querySelector(".fadelayer").addEventListener("click",showMenu);
+const hamburger = document.querySelector(".hamburger")
+const navMenu = document.querySelector(".nav-menu")
 
-document.querySelector(".menu-button").addEventListener("click",showMenu);
+hamburger.addEventListener("click", =>{
+    hamburger.classList.toggle("active");
+    navMenu.classList.toggle("active");
 
-function showMenu(){
-    let menu=document.querySelector("nav.menu");
-    menu.classList.toggle("show");
-    let layer=document.querySelector(".fadelayer");
-    layer.classList.toggle("visible")
-}
+})
+
+document.querySelectorAll("nav-link").forEach(n=>n.)addEventListener("click", () => {
+    hamburger.classList.remove("active");
+    navMenu.classList.remove("active");
+})
