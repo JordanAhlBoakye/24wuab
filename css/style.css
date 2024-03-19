@@ -78,7 +78,7 @@ a{
    .nav-menu{
     position: fixed;
     left:-100%;
-    top:70vh;
+    top:10vh;
     gap:0%;
     flex-direction: column;
     background-color: rgb(255, 7, 7);
@@ -97,9 +97,10 @@ a{
 }
 
 section{
-    
     justify-content: center;
     height: 50vh;
     width:80vw ;
-    background-color: rgb(65, 65, 65);
+    background-color: rgb(114, 114, 114);
+    margin-left: 10vw;
+    margin-right: 10vw;
 }
