@@ -1,3 +1,15 @@
+#container{
+display: grid;
+grid-template-areas: 'hd hd hd hd' 'sc sc sc sc' 'wsc wsc wsc wsc' 'sc2 sc2 sc2 sc2';
+row-gap: 1vh;
+column-gap: 1vw;
+padding: 1vh;
+background-color: rgb(255, 255, 255);
+}
+
+body{
+}
+
 *{   
 justify-items: center;
 box-sizing: border-box;
@@ -96,11 +108,32 @@ a{
 }
 }
 
-section{
+.section1{
+    grid-area: sc;
     justify-content: center;
     height: 50vh;
     width:80vw ;
     background-color: rgb(114, 114, 114);
     margin-left: 10vw;
     margin-right: 10vw;
+}
+
+.whitesection{
+    grid-area: wsc;
+    justify-content: center;
+    height: 20vh;
+    width:80vw ;
+    background-color:black;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    opacity: 0;
+}
+.section2{
+    grid-area: sc2;
+    height: 20vh;
+    width:80vw ;
+    background-color: rgb(114, 114, 114);
+    margin-left: 10vw;
+    margin-right: 10vw;
+    border-radius: 2vw;
 }
