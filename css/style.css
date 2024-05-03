@@ -129,6 +129,7 @@ a{
     opacity: 0;
 }
 .section2{
+    
     grid-area: sc2;
     height: 20vh;
     width:80vw ;
@@ -136,4 +137,15 @@ a{
     margin-left: 10vw;
     margin-right: 10vw;
     border-radius: 2vw;
+    justify-items: center;
+content:normal;
+align-items: center;
+clear: both;
+display: block;
+}
+.pizzaknappen{
+    max-width: 15vw;
+    max-height: 15vh;
+    border-radius: 50vw;
+
 }
