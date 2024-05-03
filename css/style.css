@@ -129,7 +129,7 @@ a{
     opacity: 0;
 }
 .section2{
-    
+    display:flex;
     grid-area: sc2;
     height: 20vh;
     width:80vw ;
@@ -137,15 +137,19 @@ a{
     margin-left: 10vw;
     margin-right: 10vw;
     border-radius: 2vw;
-    justify-items: center;
-content:normal;
+    justify-content: center;
+align-content:center;
 align-items: center;
-clear: both;
-display: block;
+flex-wrap:wrap;
+flex-direction: column;
+overflow: hidden;
+font-size: 10px;
 }
+
+@media print{.pizzaknappen{page-break-before: always;}}
 .pizzaknappen{
     max-width: 15vw;
     max-height: 15vh;
     border-radius: 50vw;
-
+    
 }
