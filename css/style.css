@@ -4,11 +4,10 @@ grid-template-areas: 'hd hd hd hd' 'sc sc sc sc' 'wsc wsc wsc wsc' 'sc2 sc2 sc2 
 row-gap: 1vh;
 column-gap: 1vw;
 padding: 1vh;
-background-color: rgb(255, 255, 255);
+
 }
 
-body{
-}
+
 
 *{   
 justify-items: center;
@@ -18,9 +17,10 @@ padding: 0vw;
 
 header{
     grid-area: hd;
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(255, 241, 186);
     height:15vh ;
     width:100%;
+    
 }
 
 li{
@@ -133,23 +133,33 @@ a{
     grid-area: sc2;
     height: 20vh;
     width:80vw ;
-    background-color: rgb(114, 114, 114);
+    background-color: rgb(103, 10, 10);
     margin-left: 10vw;
     margin-right: 10vw;
     border-radius: 2vw;
     justify-content: center;
 align-content:center;
 align-items: center;
-flex-wrap:wrap;
+flex-wrap:nowrap;
 flex-direction: column;
 overflow: hidden;
-font-size: 10px;
+font-size: 15px;
+
 }
 
 @media print{.pizzaknappen{page-break-before: always;}}
 .pizzaknappen{
-    max-width: 15vw;
-    max-height: 15vh;
+    max-width: 30vw;
+    max-height: 30vh;
     border-radius: 50vw;
     
+}
+
+.homebody{ 
+background-image: url("../img/enrundpizza.png");
+}
+
+
+.aboutbody{
+    background-color: aquamarine;
 }
