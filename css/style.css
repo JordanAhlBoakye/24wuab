@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Jaro:opsz@6..72&family=Maiden+Orange&family=Ysabeau+Office:wght@100&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Jaro:opsz@6..72&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Maiden+Orange&family=Ubuntu+Sans:ital,wght@0,100..800;1,100..800&family=Ysabeau+Office:wght@100&display=swap');
 #container{
 display: grid;
 grid-template-areas: 'hd hd hd hd' 'sc sc sc sc' 'wsc wsc wsc wsc' 'sc2 sc2 sc2 sc2';
@@ -33,6 +33,7 @@ li{
 a{
     color: rgb(255, 255, 255);
     text-decoration: none;
+    color: rgb(46, 0, 0); 
 }
 
 .navbar{
@@ -123,8 +124,20 @@ a{
     margin-left: 10vw;
     margin-right: 10vw;
     color:rgb(255, 255, 255);
-}
+    background-image: url("../img/woodbg.jpg");
+    display:flex;
+    align-content:center;
+align-items: center;
+flex-wrap:nowrap;
+flex-direction: column;
+overflow: hidden;
+font-family:Josefin sans;
 
+}
+.halvpizza{
+    max-height: 30vh;
+    max-width: 30vw;
+}
 .whitesection{
     grid-area: wsc;
     justify-content: center;
@@ -150,21 +163,105 @@ align-items: center;
 flex-wrap:nowrap;
 flex-direction: column;
 overflow: hidden;
-font-size: 15px;
-
+color: white;
 }
 
 @media print{.pizzaknappen{page-break-before: always;}}
 .pizzaknappen{
-    max-width: 30vw;
-    max-height: 30vh;
+    max-width: 35vw;
+    max-height: 35vh;
     border-radius: 50vw;
-    
+}
+
+.knapptext{
+    font-size: small;
 }
 
 .homebody{ 
     background-color: rgb(46, 0, 0);
 }
+
+#container2{
+display: grid;
+grid-template-areas: 
+'hd hd hd hd' 
+'mn mn mn mn' 
+'sc3 sc3 sc3 sc3' 
+'sc4 sc4 sc4 sc4' 
+'sc5 sc5 sc5 sc5';
+row-gap: 1vh;
+column-gap: 1vw;
+padding: 1vh;
+}
+
+
+.popularbody{
+    background-color: rgb(46, 0, 0); 
+    color:white
+}
+.popularmain{
+    grid-area: mn;
+    background-color: rgb(103, 10, 10);
+height:20vh;
+width:70vw;
+
+}
+
+.section3{
+    grid-area: sc3;
+    background-color: rgb(103, 10, 10);
+    height:20vh;
+    width:70vw;
+}
+.section4{
+    grid-area: sc4;
+    background-color: rgb(103, 10, 10);
+    height:20vh;
+    width:70vw;
+}
+.section5{
+    grid-area: sc5;
+    background-color: rgb(103, 10, 10);
+    height:20vh;
+    width:70vw;
+}
+
+
+
+.menubody{
+    background-color: rgb(46, 0, 0); 
+    color:white
+}
+
+#container3{
+    display: grid;
+grid-template-areas: 
+'hd hd hd hd' 
+'mn mn mn mn' 
+'sc6 sc6 sc6 sc6' 
+'sc6 sc6 sc6 sc6' 
+'sc6 sc6 sc6 sc6';
+row-gap: 1vh;
+column-gap: 1vw;
+padding: 1vh;
+}
+
+.menumain{
+grid-area: mn;
+height:20vh;
+width:70vw;
+background-color: rgb(103, 10, 10);
+background-image: url("../img/redfabric.jpg");
+}
+
+.section6{
+    grid-area: sc6;
+    height:65vh;
+    width:70vw ;
+    background-color: rgb(103, 10, 10);
+}
+
+
 
 
 .aboutbody{
