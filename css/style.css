@@ -199,12 +199,13 @@ padding: 1vh;
     background-color: rgb(46, 0, 0); 
     color:white
 }
+
 .popularmain{
     grid-area: mn;
     background-color: rgb(103, 10, 10);
 height:20vh;
 width:70vw;
-
+font-family:Josefin sans;
 }
 
 .section3{
@@ -212,18 +213,23 @@ width:70vw;
     background-color: rgb(103, 10, 10);
     height:20vh;
     width:70vw;
+    font-family:Josefin sans;
 }
 .section4{
     grid-area: sc4;
     background-color: rgb(103, 10, 10);
     height:20vh;
     width:70vw;
+    font-family:Josefin sans;
 }
+
+
 .section5{
     grid-area: sc5;
     background-color: rgb(103, 10, 10);
     height:20vh;
     width:70vw;
+    font-family:Josefin sans;
 }
 
 
@@ -252,13 +258,15 @@ height:20vh;
 width:70vw;
 background-color: rgb(103, 10, 10);
 background-image: url("../img/redfabric.jpg");
+font-family:Josefin sans;
 }
 
 .section6{
     grid-area: sc6;
-    height:65vh;
+    height:1050px;
     width:70vw ;
     background-color: rgb(103, 10, 10);
+    font-family:Josefin sans;
 }
 
 
